@@ -1,0 +1,182 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	padding; 0px;
+	font-family: Calibri, sans-serif;
+	/*background-color: #f8d94a;*/
+	
+}
+
+
+
+.page {
+	text-align: center;
+	height: 100vh;
+	padding-top: 150px;
+	
+
+	
+}
+
+.container {
+    max-width: 1920px;
+	height: auto;
+
+	
+
+	
+}
+
+.header {
+	display: flex;
+	position: fixed;
+	border-bottom: 3px solid #78a97a;
+	width: 100%;
+	padding: 15px 0px;
+	background-color: #fff;
+	
+
+
+}
+
+#header-logo {
+	flex-grow: 1;
+	padding: 0px 15px;
+	position: left;
+
+}
+
+.top-manu {
+  background-color: #78a97a;
+  overflow: hidden;
+  padding: 0px 15px;
+}
+
+/* Style the links inside the navigation bar */
+.top-manu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 25px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 10%;
+}
+
+/* Change the color of links on hover */
+.top-manu a:hover {
+  background-color: #FFF;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.top-manu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#pocetna {
+	background-image: url('img/pocetna/pocetna2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	
+	
+	
+
+}
+
+#pocetna h1 {
+	font-size: 48px;
+	font-family: "Calibri", Times, serif;
+	text-align: center;
+	color:#f0f0f0;
+	text-shadow: 1px 1px 2px #f0f0f0;
+
+}
+
+.naslov {
+	background-color: #22222260;
+	border: 1px solid #ffffff;
+	font-size: 24px;
+	padding: 40px;
+	margin: auto;
+	width: 50%;
+}
+
+#misija {
+
+
+	
+}
+
+#o-nama {
+	background-color: #f8d94a;
+	background-image: linear-gradient(to bottom, #fed626 0%, #d9b000 100%);
+
+}
+
+#o-nama img {
+    object-position: 15% 100%;
+
+}
+
+
+
+
+
+#aktivnosti {
+	background-image: linear-gradient(to bottom, #fed626 0%, #d9b000 100%);
+
+	
+}
+
+.aktext {
+	background-color: #f0f0f0;
+	border: 5px solid #ffffff;
+	font-size: 24px;
+	padding: 40px;
+	margin: auto;
+	width: 50%;
+	opacity: 0.7;
+}
+
+#program {
+	background: url('img/pozadine/slikaspolja.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed:
+}
+
+
+
+
+.footer {
+	background-color: #78a97a;
+	margin: 0px auto;
+	padding-top:  15px;
+	padding-bottom: 25px;
+	height: 20vh;
+}
+
+#hrana {
+	background: url('img/pozadine/hrana1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	
+	
+}
+
+
+#galerija {
+	background: url('img/pozadine/stipaljke2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
